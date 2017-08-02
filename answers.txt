@@ -1,13 +1,5 @@
-## Example:
 
-1.
- - SQL:
-    SELECT max(column) FROM table
-
- - ANSWER:
-   42
-
----
+## Explorer Mode
 
 1.
  - SQL:
@@ -19,3 +11,57 @@
  - SQL:
 
  - ANSWER:
+
+3.
+ - SQL:
+
+ - ANSWER:
+
+4.
+ - SQL:
+
+ - ANSWER:
+
+5.
+ - SQL:
+
+ - ANSWER:
+
+6.
+ - SQL:
+
+ - ANSWER:
+
+7.
+ - SQL:
+
+ - ANSWER:
+
+8.
+ - SQL:
+
+ - ANSWER:
+
+9.
+ - SQL:
+
+ - ANSWER:
+
+Adventure Mode
+
+1.
+ - SQL:
+
+ - ANSWER:
+
+2.
+ - SQL:
+
+ - ANSWER:
+
+3.
+ - SQL:
+
+ - ANSWER:
+
+

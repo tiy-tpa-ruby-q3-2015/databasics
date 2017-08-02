@@ -2,17 +2,16 @@
 
 Fork this repository into your own github profile.
 
-Before closing the homework assignment issue:
+Before finishing the homework assignment:
 
-- Update answers.md:
+- Update answers.txt:
   - For each question include the SQL statement(s) you wrote to generate the answer.
   - For each question include the *answer* (the sqlite output), if any, to the question asked.
 
 ### Setup
 
 ```
-createdb databasics
-psql databasics < create.sql
+bash ./setup.sh
 ```
 
 ### Running the CLI
@@ -24,9 +23,7 @@ pgcli databasics
 ### To restore your database if you need to reset it:
 
 ```
-dropdb databasics
-createdb databasics
-psql databasics < create.sql
+bash ./setup.sh
 ```
 
 ### Explorer Mode
@@ -43,6 +40,10 @@ psql databasics < create.sql
 
 ### Adventure Mode
 
-1. What item was ordered the most?
+1. What item has the highest total order quantity?
 1. What user spent the most?
 1. What were the top 3 highest grossing categories?
+
+# References
+- [SQL Aggregates](https://www.postgresql.org/docs/8.2/static/functions-aggregate.html)
+
